@@ -1,5 +1,5 @@
 {
-  "name": "kindle-clippings-parser",
+  "name": "@sole/kindle-clippings-parser",
   "version": "1.0.0",
   "description": "Parsing Kindle's clippings files",
   "main": "index.js",
