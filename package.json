@@ -9,9 +9,20 @@
   "keywords": [
     "kindle",
     "parsers",
-	"clippings",
-	"highlights"
+    "clippings",
+    "highlights"
   ],
   "author": "sole",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sole/kindle-clippings-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sole/kindle-clippings-parser/issues"
+  },
+  "homepage": "https://github.com/sole/kindle-clippings-parser#readme"
 }
