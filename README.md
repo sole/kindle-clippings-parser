@@ -49,4 +49,4 @@ There are also no proper tests. It might be the case that it doesn't work with c
 
 Assuming all Kindles work the same, connect it to your computer using a USB data cable (not all USB cables work for data... some are barely good for charging and that's it), and after a bit the device should appear in your file explorer (e.g. the Finder).
 
-Open the device and navigate to the root and you'll find a file called `My clippings.txt`. Copy it to your computer and have fun!
+Open the device, navigate to the `documents` folder, and you'll find a file called `My clippings.txt`. Copy it to your computer and have fun!
