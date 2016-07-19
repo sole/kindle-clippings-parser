@@ -5,7 +5,7 @@ module.exports = {
 };
 
 function parse(text) {
-	var chunks = text.split('==========\n');
+	var chunks = text.split('==========');
 	var highlights = chunks.map(parseHighlight).filter(function(highlight) {
 		return highlight !== false;
 	});
@@ -15,7 +15,8 @@ function parse(text) {
 
 
 function parseHighlight(text) {
-	var lines = text.split('\n');
+	var trimmed = text.trim();
+	var lines = trimmed.split('\n');
 	var title = lines[0].trim();
 	var metadata = lines[1];
 	var rest = lines.slice(2);
@@ -69,3 +70,4 @@ function groupHighlights(items) {
 
 	return collection;
 }
+
